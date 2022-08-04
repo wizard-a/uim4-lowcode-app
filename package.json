@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "author": "jiechud <qiaojienet@163.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@alifd/next": "^1.25.44",
+    "@alilc/lowcode-engine": "^1.0.10",
+    "@alilc/lowcode-engine-ext": "^1.0.3",
+    "@alilc/lowcode-plugin-code-editor": "^1.0.2",
+    "@alilc/lowcode-plugin-code-generator": "^1.0.4",
+    "@alilc/lowcode-plugin-components-pane": "^1.0.3",
+    "@alilc/lowcode-plugin-datasource-pane": "^1.0.5",
+    "@alilc/lowcode-plugin-inject": "^1.1.1",
+    "@alilc/lowcode-plugin-manual": "^1.0.3",
+    "@alilc/lowcode-plugin-schema": "^1.0.1",
+    "@alilc/lowcode-plugin-simulator-select": "^1.0.0",
+    "@alilc/lowcode-plugin-undo-redo": "^1.0.0",
+    "@alilc/lowcode-react-renderer": "^1.0.10",
+    "@alilc/lowcode-setter-behavior": "^1.0.0",
+    "@alilc/lowcode-setter-title": "^1.0.2",
+    "acorn": "^8.8.0",
+    "moment": "^2.29.4",
+    "sass": "^1.54.0",
+    "umi": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
