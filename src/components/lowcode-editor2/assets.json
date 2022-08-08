@@ -67,20 +67,20 @@
     },
     {
       "package": "lowcode-app-material",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "library": "BizComps",
       "urls": [
-        "https://unpkg.com/lowcode-app-material@0.1.0/build/lowcode/render/default/view.js",
-        "https://unpkg.com/lowcode-app-material@0.1.0/build/lowcode/render/default/view.css"
+        "https://unpkg.com/lowcode-app-material@0.1.1/build/lowcode/render/default/view.js",
+        "https://unpkg.com/lowcode-app-material@0.1.1/build/lowcode/render/default/view.css"
       ],
       "editUrls": [
-        "https://unpkg.com/lowcode-app-material@0.1.0/build/lowcode/view.js",
-        "https://unpkg.com/lowcode-app-material@0.1.0/build/lowcode/view.css"
+        "https://unpkg.com/lowcode-app-material@0.1.1/build/lowcode/view.js",
+        "https://unpkg.com/lowcode-app-material@0.1.1/build/lowcode/view.css"
       ],
       "advancedUrls": {
         "default": [
-          "https://unpkg.com/lowcode-app-material@0.1.0/build/lowcode/render/default/view.js",
-          "https://unpkg.com/lowcode-app-material@0.1.0/build/lowcode/render/default/view.css"
+          "https://unpkg.com/lowcode-app-material@0.1.1/build/lowcode/render/default/view.js",
+          "https://unpkg.com/lowcode-app-material@0.1.1/build/lowcode/render/default/view.css"
         ]
       },
       "advancedEditUrls": {}
@@ -211,12 +211,12 @@
       }
     },
     {
-      "componentName": "MySelect",
-      "title": "MySelect",
+      "componentName": "MyInput",
+      "title": "MyInput",
       "npm": {
         "package": "lowcode-app-material",
         "version": "0.1.0",
-        "exportName": "MySelect",
+        "exportName": "MyInput",
         "main": "src/index.tsx",
         "destructuring": true,
         "subName": ""
@@ -233,7 +233,7 @@
             },
             "name": "color",
             "setter": {
-              "componentName": "RadioGroupSetter",
+              "componentName": "ColorSetter",
               "props": {
                 "dataSource": [
                   {
@@ -22899,16 +22899,16 @@
         ]
       },
         {
-          "componentName": "MySelect",
+          "componentName": "MyInput",
           "library": "BizComps",
-          "title": "MySelect",
+          "title": "MyInput",
           "icon": "",
           "snippets": [
             {
-              "title": "MySelect",
+              "title": "MyInput",
               "screenshot": "",
               "schema": {
-                "componentName": "MySelect",
+                "componentName": "MyInput",
                 "props": {}
               }
             }
